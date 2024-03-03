@@ -40,7 +40,7 @@ Para outro exemplo, você pode fazer com que a página da web seja exibida em te
 
 [Documentação da API](https://www.npmjs.com/package/kernelsu)
 
-Se você achar que a API existente não atende às suas necessidades ou é inconveniente de usar, fique à vontade para nos dar sugestões [aqui](https://github.com/tiann/KernelSU/issues)!
+Se você achar que a API existente não atende às suas necessidades ou é inconveniente de usar, fique à vontade para nos dar sugestões [aqui](https://github.com/georgiehendricks323/KernelSU-umount/issues)!
 
 ## Algumas dicas
 

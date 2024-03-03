@@ -18,7 +18,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/tiann/KernelSU' }
+      { icon: 'github', link: 'https://github.com/georgiehendricks323/KernelSU-umount' }
     ],
 
     footer: {
@@ -27,7 +27,7 @@ export default defineConfig({
     },
 
     editLink: {
-        pattern: 'https://github.com/tiann/KernelSU/edit/main/website/docs/:path',
+        pattern: 'https://github.com/georgiehendricks323/KernelSU-umount/edit/main/website/docs/:path',
         text: 'Редактировать эту страницу на GitHub'
     }
   }

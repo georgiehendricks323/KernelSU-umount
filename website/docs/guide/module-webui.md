@@ -40,7 +40,7 @@ For another example, you can make the web page display full screen, or display a
 
 [API documentation](https://www.npmjs.com/package/kernelsu)
 
-If you find that the existing API does not meet your needs or is inconvenient to use, you are welcome to give us suggestions [here](https://github.com/tiann/KernelSU/issues)!
+If you find that the existing API does not meet your needs or is inconvenient to use, you are welcome to give us suggestions [here](https://github.com/georgiehendricks323/KernelSU-umount/issues)!
 
 ## Some tips
 

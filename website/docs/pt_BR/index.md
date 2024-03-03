@@ -15,7 +15,7 @@ hero:
       link: /pt_BR/guide/what-is-kernelsu
     - theme: alt
       text: Ver no GitHub
-      link: https://github.com/tiann/KernelSU
+      link: https://github.com/georgiehendricks323/KernelSU-umount
 
 features:
   - title: Baseado em kernel

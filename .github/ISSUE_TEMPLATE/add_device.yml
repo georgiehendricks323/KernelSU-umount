@@ -12,7 +12,7 @@ body:
     attributes:
       label: Repository URL
       description: Your repository URL
-      placeholder: https://github.com/tiann/KernelSU
+      placeholder: https://github.com/georgiehendricks323/KernelSU-umount
     validations:
       required: true
   - type: input

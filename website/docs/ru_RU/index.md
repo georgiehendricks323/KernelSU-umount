@@ -15,7 +15,7 @@ hero:
       link: /ru_RU/guide/what-is-kernelsu
     - theme: alt
       text: Посмотр на GitHub
-      link: https://github.com/tiann/KernelSU
+      link: https://github.com/georgiehendricks323/KernelSU-umount
 
 features:
   - title: Основанный на ядре
