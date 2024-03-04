@@ -9,6 +9,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material.icons.filled.BugReport
 import androidx.compose.material.icons.filled.ContactPage
+import androidx.compose.material.icons.filled.DeveloperMode
 import androidx.compose.material.icons.filled.Fence
 import androidx.compose.material.icons.filled.RemoveModerator
 import androidx.compose.material.icons.filled.Update
@@ -99,6 +100,21 @@ fun SettingScreen(navigator: DestinationsNavigator) {
             ) {
                 prefs.edit().putBoolean("check_update", it).apply()
                 checkUpdate = it
+            }
+
+            var enableWebDebugging by rememberSaveable {
+                mutableStateOf(
+                    prefs.getBoolean("enable_web_debugging", false)
+                )
+            }
+            SwitchItem(
+                icon = Icons.Filled.DeveloperMode,
+                title = stringResource(id = R.string.enable_web_debugging),
+                summary = stringResource(id = R.string.enable_web_debugging_summary),
+                checked = enableWebDebugging
+            ) {
+                prefs.edit().putBoolean("enable_web_debugging", it).apply()
+                enableWebDebugging = it
             }
 
 
