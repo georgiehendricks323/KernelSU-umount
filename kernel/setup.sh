@@ -15,7 +15,7 @@ else
      exit 127
 fi
 
-test -d "$GKI_ROOT/KernelSU" || git clone https://github.com/georgiehendricks323/KernelSU-umount
+test -d "$GKI_ROOT/KernelSU" || git clone https://github.com/georgiehendricks323/KernelSU-umount KernelSU
 cd "$GKI_ROOT/KernelSU"
 git stash
 if [ "$(git status | grep -Po 'v\d+(\.\d+)*' | head -n1)" ]; then
